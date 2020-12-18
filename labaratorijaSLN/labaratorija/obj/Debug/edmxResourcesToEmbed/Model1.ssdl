@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Model.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="koraci">
+    <Key>
+      <PropertyRef Name="korakid" />
+    </Key>
+    <Property Name="korakid" Type="int" Nullable="false" />
+    <Property Name="brpoena" Type="int" Nullable="false" />
+    <Property Name="opis" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="koraciigraca">
+    <Key>
+      <PropertyRef Name="redbrkoraka" />
+    </Key>
+    <Property Name="username" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="korakid" Type="int" Nullable="false" />
+    <Property Name="redbrkoraka" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="profili">
+    <Key>
+      <PropertyRef Name="username" />
+    </Key>
+    <Property Name="username" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="password" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="poeni" Type="int" />
+    <Property Name="ImeiPrez" Type="varchar" MaxLength="50" />
+    <Property Name="Fakultet" Type="varchar" MaxLength="20" />
+    <Property Name="Smer" Type="varchar" MaxLength="20" />
+    <Property Name="Email" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <Association Name="FK_koraciigraca_koraci">
+    <End Role="koraci" Type="Self.koraci" Multiplicity="1" />
+    <End Role="koraciigraca" Type="Self.koraciigraca" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="koraci">
+        <PropertyRef Name="korakid" />
+      </Principal>
+      <Dependent Role="koraciigraca">
+        <PropertyRef Name="korakid" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_koraciigraca_profili">
+    <End Role="profili" Type="Self.profili" Multiplicity="1" />
+    <End Role="koraciigraca" Type="Self.koraciigraca" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="profili">
+        <PropertyRef Name="username" />
+      </Principal>
+      <Dependent Role="koraciigraca">
+        <PropertyRef Name="username" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_profili_profili">
+    <End Role="profili" Type="Self.profili" Multiplicity="1" />
+    <End Role="profili1" Type="Self.profili" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="profili">
+        <PropertyRef Name="username" />
+      </Principal>
+      <Dependent Role="profili1">
+        <PropertyRef Name="username" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="ModelStoreContainer">
+    <EntitySet Name="koraci" EntityType="Self.koraci" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="koraciigraca" EntityType="Self.koraciigraca" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="profili" EntityType="Self.profili" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_koraciigraca_koraci" Association="Self.FK_koraciigraca_koraci">
+      <End Role="koraci" EntitySet="koraci" />
+      <End Role="koraciigraca" EntitySet="koraciigraca" />
+    </AssociationSet>
+    <AssociationSet Name="FK_koraciigraca_profili" Association="Self.FK_koraciigraca_profili">
+      <End Role="profili" EntitySet="profili" />
+      <End Role="koraciigraca" EntitySet="koraciigraca" />
+    </AssociationSet>
+    <AssociationSet Name="FK_profili_profili" Association="Self.FK_profili_profili">
+      <End Role="profili" EntitySet="profili" />
+      <End Role="profili1" EntitySet="profili" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

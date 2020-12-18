@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="ModelStoreContainer" CdmEntityContainer="Entities4">
+    <EntitySetMapping Name="koracis">
+      <EntityTypeMapping TypeName="Model.koraci">
+        <MappingFragment StoreEntitySet="koraci">
+          <ScalarProperty Name="korakid" ColumnName="korakid" />
+          <ScalarProperty Name="brpoena" ColumnName="brpoena" />
+          <ScalarProperty Name="opis" ColumnName="opis" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="koraciigracas">
+      <EntityTypeMapping TypeName="Model.koraciigraca">
+        <MappingFragment StoreEntitySet="koraciigraca">
+          <ScalarProperty Name="username" ColumnName="username" />
+          <ScalarProperty Name="korakid" ColumnName="korakid" />
+          <ScalarProperty Name="redbrkoraka" ColumnName="redbrkoraka" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="profilis">
+      <EntityTypeMapping TypeName="Model.profili">
+        <MappingFragment StoreEntitySet="profili">
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="Smer" ColumnName="Smer" />
+          <ScalarProperty Name="Fakultet" ColumnName="Fakultet" />
+          <ScalarProperty Name="ImeiPrez" ColumnName="ImeiPrez" />
+          <ScalarProperty Name="username" ColumnName="username" />
+          <ScalarProperty Name="password" ColumnName="password" />
+          <ScalarProperty Name="poeni" ColumnName="poeni" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

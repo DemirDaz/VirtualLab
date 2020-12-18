@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Model" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="koraci">
+    <Key>
+      <PropertyRef Name="korakid" />
+    </Key>
+    <Property Name="korakid" Type="Int32" Nullable="false" />
+    <Property Name="brpoena" Type="Int32" Nullable="false" />
+    <Property Name="opis" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="koraciigracas" Relationship="Self.FK_koraciigraca_koraci" FromRole="koraci" ToRole="koraciigraca" />
+  </EntityType>
+  <EntityType Name="koraciigraca">
+    <Key>
+      <PropertyRef Name="redbrkoraka" />
+    </Key>
+    <Property Name="username" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="korakid" Type="Int32" Nullable="false" />
+    <Property Name="redbrkoraka" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="koraci" Relationship="Self.FK_koraciigraca_koraci" FromRole="koraciigraca" ToRole="koraci" />
+    <NavigationProperty Name="profili" Relationship="Self.FK_koraciigraca_profili" FromRole="koraciigraca" ToRole="profili" />
+  </EntityType>
+  <EntityType Name="profili">
+    <Key>
+      <PropertyRef Name="username" />
+    </Key>
+    <Property Name="username" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="password" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="poeni" Type="Int32" />
+    <Property Name="ImeiPrez" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Fakultet" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="Smer" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="Email" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="koraciigracas" Relationship="Self.FK_koraciigraca_profili" FromRole="profili" ToRole="koraciigraca" />
+    <NavigationProperty Name="profili1" Relationship="Self.FK_profili_profili" FromRole="profili" ToRole="profili1" />
+    <NavigationProperty Name="profili2" Relationship="Self.FK_profili_profili" FromRole="profili1" ToRole="profili" />
+  </EntityType>
+  <Association Name="FK_koraciigraca_koraci">
+    <End Role="koraci" Type="Self.koraci" Multiplicity="1" />
+    <End Role="koraciigraca" Type="Self.koraciigraca" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="koraci">
+        <PropertyRef Name="korakid" />
+      </Principal>
+      <Dependent Role="koraciigraca">
+        <PropertyRef Name="korakid" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_koraciigraca_profili">
+    <End Role="profili" Type="Self.profili" Multiplicity="1" />
+    <End Role="koraciigraca" Type="Self.koraciigraca" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="profili">
+        <PropertyRef Name="username" />
+      </Principal>
+      <Dependent Role="koraciigraca">
+        <PropertyRef Name="username" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_profili_profili">
+    <End Role="profili" Type="Self.profili" Multiplicity="1" />
+    <End Role="profili1" Type="Self.profili" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="profili">
+        <PropertyRef Name="username" />
+      </Principal>
+      <Dependent Role="profili1">
+        <PropertyRef Name="username" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="Entities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="koracis" EntityType="Self.koraci" />
+    <EntitySet Name="koraciigracas" EntityType="Self.koraciigraca" />
+    <EntitySet Name="profilis" EntityType="Self.profili" />
+    <AssociationSet Name="FK_koraciigraca_koraci" Association="Self.FK_koraciigraca_koraci">
+      <End Role="koraci" EntitySet="koracis" />
+      <End Role="koraciigraca" EntitySet="koraciigracas" />
+    </AssociationSet>
+    <AssociationSet Name="FK_koraciigraca_profili" Association="Self.FK_koraciigraca_profili">
+      <End Role="profili" EntitySet="profilis" />
+      <End Role="koraciigraca" EntitySet="koraciigracas" />
+    </AssociationSet>
+    <AssociationSet Name="FK_profili_profili" Association="Self.FK_profili_profili">
+      <End Role="profili" EntitySet="profilis" />
+      <End Role="profili1" EntitySet="profilis" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

@@ -1,0 +1,128 @@
+c:\users\demco\documents\visual studio 2015\Projects\labaratorija\labaratorija\bin\Debug\labaratorija.exe.config
+c:\users\demco\documents\visual studio 2015\Projects\labaratorija\labaratorija\bin\Debug\labaratorija.exe
+c:\users\demco\documents\visual studio 2015\Projects\labaratorija\labaratorija\bin\Debug\labaratorija.pdb
+c:\users\demco\documents\visual studio 2015\Projects\labaratorija\labaratorija\bin\Debug\Bunifu_UI_v1.52.dll
+c:\users\demco\documents\visual studio 2015\Projects\labaratorija\labaratorija\bin\Debug\MetroFramework.Design.dll
+c:\users\demco\documents\visual studio 2015\Projects\labaratorija\labaratorija\bin\Debug\MetroFramework.dll
+c:\users\demco\documents\visual studio 2015\Projects\labaratorija\labaratorija\bin\Debug\MetroFramework.Fonts.dll
+c:\users\demco\documents\visual studio 2015\Projects\labaratorija\labaratorija\obj\Debug\labaratorija.csprojResolveAssemblyReference.cache
+c:\users\demco\documents\visual studio 2015\Projects\labaratorija\labaratorija\obj\Debug\labaratorija.Form1.resources
+c:\users\demco\documents\visual studio 2015\Projects\labaratorija\labaratorija\obj\Debug\labaratorija.Properties.Resources.resources
+c:\users\demco\documents\visual studio 2015\Projects\labaratorija\labaratorija\obj\Debug\labaratorija.csproj.GenerateResource.Cache
+c:\users\demco\documents\visual studio 2015\Projects\labaratorija\labaratorija\obj\Debug\labaratorija.exe
+c:\users\demco\documents\visual studio 2015\Projects\labaratorija\labaratorija\obj\Debug\labaratorija.pdb
+c:\users\demco\documents\visual studio 2015\Projects\labaratorija\labaratorija\bin\Debug\EntityFramework.dll
+c:\users\demco\documents\visual studio 2015\Projects\labaratorija\labaratorija\bin\Debug\EntityFramework.SqlServer.dll
+c:\users\demco\documents\visual studio 2015\Projects\labaratorija\labaratorija\bin\Debug\EntityFramework.xml
+c:\users\demco\documents\visual studio 2015\Projects\labaratorija\labaratorija\bin\Debug\EntityFramework.SqlServer.xml
+c:\users\demco\documents\visual studio 2015\Projects\labaratorija\labaratorija\obj\Debug\labaratorija.Form2.resources
+c:\users\demco\documents\visual studio 2015\Projects\labaratorija\labaratorija\obj\Debug\labaratorija.Ogled1.resources
+J:\Projekat-Lab\labaratorija\labaratorija\bin\Debug\labaratorija.exe.config
+J:\Projekat-Lab\labaratorija\labaratorija\obj\Debug\labaratorija.exe
+J:\Projekat-Lab\labaratorija\labaratorija\obj\Debug\labaratorija.pdb
+J:\Projekat-Lab\labaratorija\labaratorija\bin\Debug\labaratorija.exe
+J:\Projekat-Lab\labaratorija\labaratorija\bin\Debug\labaratorija.pdb
+J:\Projekat-Lab\labaratorija\labaratorija\bin\Debug\EntityFramework.dll
+J:\Projekat-Lab\labaratorija\labaratorija\bin\Debug\EntityFramework.SqlServer.dll
+J:\Projekat-Lab\labaratorija\labaratorija\bin\Debug\MetroFramework.Design.dll
+J:\Projekat-Lab\labaratorija\labaratorija\bin\Debug\MetroFramework.dll
+J:\Projekat-Lab\labaratorija\labaratorija\bin\Debug\MetroFramework.Fonts.dll
+J:\Projekat-Lab\labaratorija\labaratorija\bin\Debug\EntityFramework.xml
+J:\Projekat-Lab\labaratorija\labaratorija\bin\Debug\EntityFramework.SqlServer.xml
+J:\Projekat-Lab\labaratorija\labaratorija\obj\Debug\labaratorija.csprojResolveAssemblyReference.cache
+J:\Projekat-Lab\labaratorija\labaratorija\obj\Debug\labaratorija.Form1.resources
+J:\Projekat-Lab\labaratorija\labaratorija\obj\Debug\labaratorija.Form2.resources
+J:\Projekat-Lab\labaratorija\labaratorija\obj\Debug\labaratorija.Ogled1.resources
+J:\Projekat-Lab\labaratorija\labaratorija\obj\Debug\labaratorija.Properties.Resources.resources
+J:\Projekat-Lab\labaratorija\labaratorija\obj\Debug\labaratorija.csproj.GenerateResource.Cache
+C:\Users\Demco\Desktop\Projekat-Lab\labaratorija\labaratorija\bin\Debug\labaratorija.exe.config
+C:\Users\Demco\Desktop\Projekat-Lab\labaratorija\labaratorija\obj\Debug\labaratorija.exe
+C:\Users\Demco\Desktop\Projekat-Lab\labaratorija\labaratorija\obj\Debug\labaratorija.pdb
+C:\Users\Demco\Desktop\Projekat-Lab\labaratorija\labaratorija\bin\Debug\labaratorija.exe
+C:\Users\Demco\Desktop\Projekat-Lab\labaratorija\labaratorija\bin\Debug\labaratorija.pdb
+C:\Users\Demco\Desktop\Projekat-Lab\labaratorija\labaratorija\bin\Debug\Bunifu_UI_v1.52.dll
+C:\Users\Demco\Desktop\Projekat-Lab\labaratorija\labaratorija\bin\Debug\EntityFramework.dll
+C:\Users\Demco\Desktop\Projekat-Lab\labaratorija\labaratorija\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Demco\Desktop\Projekat-Lab\labaratorija\labaratorija\bin\Debug\MetroFramework.Design.dll
+C:\Users\Demco\Desktop\Projekat-Lab\labaratorija\labaratorija\bin\Debug\MetroFramework.dll
+C:\Users\Demco\Desktop\Projekat-Lab\labaratorija\labaratorija\bin\Debug\MetroFramework.Fonts.dll
+C:\Users\Demco\Desktop\Projekat-Lab\labaratorija\labaratorija\bin\Debug\EntityFramework.xml
+C:\Users\Demco\Desktop\Projekat-Lab\labaratorija\labaratorija\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Demco\Desktop\Projekat-Lab\labaratorija\labaratorija\obj\Debug\labaratorija.csprojResolveAssemblyReference.cache
+C:\Users\Demco\Desktop\Projekat-Lab\labaratorija\labaratorija\obj\Debug\labaratorija.Form1.resources
+C:\Users\Demco\Desktop\Projekat-Lab\labaratorija\labaratorija\obj\Debug\labaratorija.Form2.resources
+C:\Users\Demco\Desktop\Projekat-Lab\labaratorija\labaratorija\obj\Debug\labaratorija.Ogled1.resources
+C:\Users\Demco\Desktop\Projekat-Lab\labaratorija\labaratorija\obj\Debug\labaratorija.Properties.Resources.resources
+C:\Users\Demco\Desktop\Projekat-Lab\labaratorija\labaratorija\obj\Debug\labaratorija.csproj.GenerateResource.Cache
+C:\Users\Demco\Desktop\Projekat-Lab-v.10.06\labaratorija\labaratorija\bin\Debug\labaratorija.exe.config
+C:\Users\Demco\Desktop\Projekat-Lab-v.10.06\labaratorija\labaratorija\obj\Debug\labaratorija.exe
+C:\Users\Demco\Desktop\Projekat-Lab-v.10.06\labaratorija\labaratorija\obj\Debug\labaratorija.pdb
+C:\Users\Demco\Desktop\Projekat-Lab-v.10.06\labaratorija\labaratorija\bin\Debug\labaratorija.exe
+C:\Users\Demco\Desktop\Projekat-Lab-v.10.06\labaratorija\labaratorija\bin\Debug\labaratorija.pdb
+C:\Users\Demco\Desktop\Projekat-Lab-v.10.06\labaratorija\labaratorija\bin\Debug\Bunifu_UI_v1.52.dll
+C:\Users\Demco\Desktop\Projekat-Lab-v.10.06\labaratorija\labaratorija\bin\Debug\EntityFramework.dll
+C:\Users\Demco\Desktop\Projekat-Lab-v.10.06\labaratorija\labaratorija\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Demco\Desktop\Projekat-Lab-v.10.06\labaratorija\labaratorija\bin\Debug\MetroFramework.Design.dll
+C:\Users\Demco\Desktop\Projekat-Lab-v.10.06\labaratorija\labaratorija\bin\Debug\MetroFramework.dll
+C:\Users\Demco\Desktop\Projekat-Lab-v.10.06\labaratorija\labaratorija\bin\Debug\MetroFramework.Fonts.dll
+C:\Users\Demco\Desktop\Projekat-Lab-v.10.06\labaratorija\labaratorija\bin\Debug\EntityFramework.xml
+C:\Users\Demco\Desktop\Projekat-Lab-v.10.06\labaratorija\labaratorija\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Demco\Desktop\Projekat-Lab-v.10.06\labaratorija\labaratorija\obj\Debug\labaratorija.csprojResolveAssemblyReference.cache
+C:\Users\Demco\Desktop\Projekat-Lab-v.10.06\labaratorija\labaratorija\obj\Debug\labaratorija.Form1.resources
+C:\Users\Demco\Desktop\Projekat-Lab-v.10.06\labaratorija\labaratorija\obj\Debug\labaratorija.Form2.resources
+C:\Users\Demco\Desktop\Projekat-Lab-v.10.06\labaratorija\labaratorija\obj\Debug\labaratorija.Ogled1.resources
+C:\Users\Demco\Desktop\Projekat-Lab-v.10.06\labaratorija\labaratorija\obj\Debug\labaratorija.Properties.Resources.resources
+C:\Users\Demco\Desktop\Projekat-Lab-v.10.06\labaratorija\labaratorija\obj\Debug\labaratorija.csproj.GenerateResource.Cache
+C:\Users\Demco\Desktop\Projekat-Lab-v.10.06\labaratorija\labaratorija\obj\Debug\labaratorija.Ogled2.resources
+G:\Zadnja Verzija LAb\Projekat-Lab-v.10.06\labaratorija\labaratorija\bin\Debug\labaratorija.exe.config
+G:\Zadnja Verzija LAb\Projekat-Lab-v.10.06\labaratorija\labaratorija\obj\Debug\labaratorija.exe
+G:\Zadnja Verzija LAb\Projekat-Lab-v.10.06\labaratorija\labaratorija\obj\Debug\labaratorija.pdb
+G:\Zadnja Verzija LAb\Projekat-Lab-v.10.06\labaratorija\labaratorija\bin\Debug\labaratorija.exe
+G:\Zadnja Verzija LAb\Projekat-Lab-v.10.06\labaratorija\labaratorija\bin\Debug\labaratorija.pdb
+G:\Zadnja Verzija LAb\Projekat-Lab-v.10.06\labaratorija\labaratorija\bin\Debug\EntityFramework.dll
+G:\Zadnja Verzija LAb\Projekat-Lab-v.10.06\labaratorija\labaratorija\bin\Debug\EntityFramework.SqlServer.dll
+G:\Zadnja Verzija LAb\Projekat-Lab-v.10.06\labaratorija\labaratorija\bin\Debug\MetroFramework.Design.dll
+G:\Zadnja Verzija LAb\Projekat-Lab-v.10.06\labaratorija\labaratorija\bin\Debug\MetroFramework.dll
+G:\Zadnja Verzija LAb\Projekat-Lab-v.10.06\labaratorija\labaratorija\bin\Debug\MetroFramework.Fonts.dll
+G:\Zadnja Verzija LAb\Projekat-Lab-v.10.06\labaratorija\labaratorija\bin\Debug\EntityFramework.xml
+G:\Zadnja Verzija LAb\Projekat-Lab-v.10.06\labaratorija\labaratorija\bin\Debug\EntityFramework.SqlServer.xml
+G:\Zadnja Verzija LAb\Projekat-Lab-v.10.06\labaratorija\labaratorija\obj\Debug\labaratorija.csprojResolveAssemblyReference.cache
+G:\Zadnja Verzija LAb\Projekat-Lab-v.10.06\labaratorija\labaratorija\obj\Debug\labaratorija.Form1.resources
+G:\Zadnja Verzija LAb\Projekat-Lab-v.10.06\labaratorija\labaratorija\obj\Debug\labaratorija.Form2.resources
+G:\Zadnja Verzija LAb\Projekat-Lab-v.10.06\labaratorija\labaratorija\obj\Debug\labaratorija.Ogled1.resources
+G:\Zadnja Verzija LAb\Projekat-Lab-v.10.06\labaratorija\labaratorija\obj\Debug\labaratorija.Ogled2.resources
+G:\Zadnja Verzija LAb\Projekat-Lab-v.10.06\labaratorija\labaratorija\obj\Debug\labaratorija.Properties.Resources.resources
+G:\Zadnja Verzija LAb\Projekat-Lab-v.10.06\labaratorija\labaratorija\obj\Debug\labaratorija.csproj.GenerateResource.Cache
+J:\Zadnja Verzija LAb\Projekat-Lab-v.10.06\labaratorija\labaratorija\bin\Debug\labaratorija.exe.config
+J:\Zadnja Verzija LAb\Projekat-Lab-v.10.06\labaratorija\labaratorija\obj\Debug\labaratorija.exe
+J:\Zadnja Verzija LAb\Projekat-Lab-v.10.06\labaratorija\labaratorija\obj\Debug\labaratorija.pdb
+C:\Users\Demco\Desktop\labaratorija\labaratorija\bin\Debug\labaratorija.exe.config
+C:\Users\Demco\Desktop\labaratorija\labaratorija\obj\Debug\labaratorija.exe
+C:\Users\Demco\Desktop\labaratorija\labaratorija\obj\Debug\labaratorija.pdb
+C:\Users\Demco\Desktop\labaratorija\labaratorija\bin\Debug\labaratorija.exe
+C:\Users\Demco\Desktop\labaratorija\labaratorija\bin\Debug\labaratorija.pdb
+C:\Users\Demco\Desktop\labaratorija\labaratorija\bin\Debug\Bunifu_UI_v1.52.dll
+C:\Users\Demco\Desktop\labaratorija\labaratorija\bin\Debug\EntityFramework.dll
+C:\Users\Demco\Desktop\labaratorija\labaratorija\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Demco\Desktop\labaratorija\labaratorija\bin\Debug\MetroFramework.Design.dll
+C:\Users\Demco\Desktop\labaratorija\labaratorija\bin\Debug\MetroFramework.dll
+C:\Users\Demco\Desktop\labaratorija\labaratorija\bin\Debug\MetroFramework.Fonts.dll
+C:\Users\Demco\Desktop\labaratorija\labaratorija\bin\Debug\EntityFramework.xml
+C:\Users\Demco\Desktop\labaratorija\labaratorija\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Demco\Desktop\labaratorija\labaratorija\obj\Debug\labaratorija.csprojResolveAssemblyReference.cache
+C:\Users\Demco\Desktop\labaratorija\labaratorija\obj\Debug\labaratorija.Form1.resources
+C:\Users\Demco\Desktop\labaratorija\labaratorija\obj\Debug\labaratorija.Form2.resources
+C:\Users\Demco\Desktop\labaratorija\labaratorija\obj\Debug\labaratorija.Ogled1.resources
+C:\Users\Demco\Desktop\labaratorija\labaratorija\obj\Debug\labaratorija.Ogled2.resources
+C:\Users\Demco\Desktop\labaratorija\labaratorija\obj\Debug\labaratorija.Properties.Resources.resources
+C:\Users\Demco\Desktop\labaratorija\labaratorija\obj\Debug\labaratorija.csproj.GenerateResource.Cache
+C:\Users\Demco\Desktop\labaratorija\labaratorija\obj\Debug\labaratorija.Registracija.resources
+C:\Users\Demco\Desktop\labaratorija\labaratorija\bin\Debug\Spire.License.dll
+C:\Users\Demco\Desktop\labaratorija\labaratorija\bin\Debug\Spire.Pdf.dll
+C:\Users\Demco\Desktop\labaratorija\labaratorija\bin\Debug\Microsoft.mshtml.dll
+C:\Users\Demco\Desktop\labaratorija\labaratorija\bin\Debug\Spire.License.xml
+C:\Users\Demco\Desktop\labaratorija\labaratorija\bin\Debug\Spire.Pdf.xml
+C:\Users\Demco\Desktop\labaratorija\labaratorija\obj\Debug\labaratorija.Praktikum.resources
+C:\Users\Demco\Desktop\labaratorija\labaratorija\obj\Debug\labaratorija.Praktikum2.resources
+C:\Users\Demco\Desktop\labaratorija\labaratorija\bin\Debug\lab-login.mdf
+C:\Users\Demco\Desktop\labaratorija\labaratorija\bin\Debug\lab-login_log.ldf
